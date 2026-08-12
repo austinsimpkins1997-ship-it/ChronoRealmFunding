@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": {
+    "cd_script_relative": true,
+    "quoted_orchestrator": true,
+    "pause_present": true,
+    "python_detection": true,
+    "no_hardcoded_drive": true
+  }
+}

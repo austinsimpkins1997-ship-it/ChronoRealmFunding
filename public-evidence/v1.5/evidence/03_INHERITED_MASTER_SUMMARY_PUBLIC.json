@@ -1,0 +1,103 @@
+{
+  "schema": "chronorealm-master-run-results/1.0",
+  "timestamp": "2026-08-12T12:50:19.410219-04:00",
+  "bundle": "ChronoRealm_WE_MASTER_FULL_FINAL_v1.1_2026-08-11",
+  "overall_status": "PASS",
+  "total_steps": 14,
+  "passed": 14,
+  "failed": 0,
+  "steps": [
+    {
+      "name": "Top-level bundle manifest",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Top-level_bundle_manifest.json"
+    },
+    {
+      "name": "MASTER invariant presence",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "MASTER_invariant_presence.json"
+    },
+    {
+      "name": "Python AST parse",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Python_AST_parse.json"
+    },
+    {
+      "name": "Release manifest verification",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Release_manifest_verification.log"
+    },
+    {
+      "name": "WE v4.1.1 integrated self-test",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "WE_v4.1.1_integrated_self-test.log"
+    },
+    {
+      "name": "Flow-clock self-test",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Flow-clock_self-test.log"
+    },
+    {
+      "name": "Failure-mode self-test",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Failure-mode_self-test.log"
+    },
+    {
+      "name": "Self-restoration self-test",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Self-restoration_self-test.log"
+    },
+    {
+      "name": "Epistemic-gates self-test",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Epistemic-gates_self-test.log"
+    },
+    {
+      "name": "Perseus-adapter self-test",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Perseus-adapter_self-test.log"
+    },
+    {
+      "name": "Riemann-zeta self-test",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Riemann-zeta_self-test.log"
+    },
+    {
+      "name": "Capability-graph self-test",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Capability-graph_self-test.log"
+    },
+    {
+      "name": "Human-Home self-test",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Human-Home_self-test.log"
+    },
+    {
+      "name": "Integrated Assurance structural verification",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Integrated_Assurance_structural_verification.log"
+    }
+  ],
+  "evidence_boundary": [
+    "PASS means the included structural/local software validation steps completed in this environment.",
+    "PASS does not establish universal correctness, new physics, physical time manipulation, independent certification, or independent physical-host reproduction.",
+    "The zeta checks do not solve the Riemann Hypothesis.",
+    "Cultural analogy layers are not empirical or formal evidence.",
+    "Negative/failed results remain valid evidence and are preserved in the output ZIP."
+  ],
+  "public_redaction": "Absolute local paths, username, machine hostname, and command-line paths were removed. Step statuses and counts are unchanged."
+}

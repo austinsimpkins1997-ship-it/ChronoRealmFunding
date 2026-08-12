@@ -1,0 +1,79 @@
+{
+  "schema": "chronorealm-public-results/1.5",
+  "source_release": "ChronoRealm / WE FINAL v1.5",
+  "source_timestamp": "2026-08-12T12:50:19.767967-04:00",
+  "overall_status": "PASS",
+  "major_steps": 11,
+  "major_passed": 11,
+  "major_failed": 0,
+  "steps": [
+    {
+      "name": "Frozen predecessor v1.4 static manifest",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "Final v1.5 additive static manifest",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "Human welfare non-inducement self-test",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "Inherited v1.4 Being/public-source boundary",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "Inherited MASTER bounded validation suite",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "v1.2 successor grounded-reference self-test",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "Materials characterization integration self-test",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "Commercialization decision-intake schema self-test",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "Commercialization notes-capture mechanism",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "Windows one-click pathing static self-test",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "v1.5 integration Python AST parse",
+      "status": "PASS",
+      "exit_code": 0
+    }
+  ],
+  "human_welfare_rule": "Prevent induced harm; preserve identity; respond to distress with support rather than erasure or punishment.",
+  "evidence_boundary": [
+    "PASS is local software/evidence-integrity evidence for this environment only.",
+    "The human-welfare gate is architectural policy, not medical diagnosis or clinical treatment.",
+    "Health conditions, grief, survivors, disabilities, and LGBTQIA+ identity are not forbidden states.",
+    "The policy blocks intentional inducement/exploitation of preventable harm.",
+    "v1.4 materials integration remains synthetic/software validation and does not reproduce the cited hydroxyapatite experiment.",
+    "Independent certification is not established.",
+    "Independent second physical host and Step17 -> Step17B formal soundness remain open unless separately evidenced.",
+    "Negative results and unresolved findings remain preserved."
+  ],
+  "raw_private_result_sha256": "10030c0f6002d2892475c1981fedc697906bf1de219d9c23b484cb499ab16742",
+  "source_bundle_sha256": "7b7a9daed0a2366b3ee801dab29b8da7100746e042784de6a396508e04ea9153"
+}

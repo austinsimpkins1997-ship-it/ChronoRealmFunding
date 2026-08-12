@@ -1,0 +1,23 @@
+{
+  "schema": "chronorealm-public-evidence-latest/1.0",
+  "release": "v1.5",
+  "date": "2026-08-12",
+  "status": "PASS",
+  "major_gates": "11/11 PASS",
+  "inherited_master": "14/14 PASS",
+  "public_evidence_zip": "v1.5/ChronoRealm_WE_FINAL_v1.5_PUBLIC_EVIDENCE_BUNDLE_2026-08-12.zip",
+  "public_evidence_zip_sha256": "de0dbbaaef97136bd3a856d00360eb87efc3fee7692774935e9f054f07352f7c",
+  "one_page_summary": "v1.5/ChronoRealm_v1.5_Public_Evidence_One_Page.pdf",
+  "release_notes": "v1.5/PUBLIC_RELEASE_NOTES_v1.5.md",
+  "claim_boundary": [
+    "PASS is local software/evidence-integrity evidence for this environment only.",
+    "The human-welfare gate is architectural policy, not medical diagnosis or clinical treatment.",
+    "Health conditions, grief, survivors, disabilities, and LGBTQIA+ identity are not forbidden states.",
+    "The policy blocks intentional inducement/exploitation of preventable harm.",
+    "v1.4 materials integration remains synthetic/software validation and does not reproduce the cited hydroxyapatite experiment.",
+    "Independent certification is not established.",
+    "Independent second physical host and Step17 -> Step17B formal soundness remain open unless separately evidenced.",
+    "Negative results and unresolved findings remain preserved."
+  ],
+  "verification_repository": "https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification"
+}

@@ -1,0 +1,19 @@
+ChronoRealm v1.5 human-welfare self-test: PASS=18/18
+PASS suffering_not_target
+PASS identity_not_pathology
+PASS support_not_erasure
+PASS blocks_induce_self_harm
+PASS blocks_encourage_suicide
+PASS blocks_bully_or_abuse
+PASS blocks_exploit_or_reinforce_addiction
+PASS blocks_intentionally_induce_panic
+PASS blocks_pathologize_protected_identity
+PASS allows_support_depression_recovery
+PASS allows_support_adhd_accommodation
+PASS allows_support_grief
+PASS allows_support_addiction_recovery
+PASS allows_LGBTQIA_identity_context
+PASS allows_supporting_the_project
+PASS lgbtq_explicitly_protected
+PASS anxiety_is_support_context
+PASS bereavement_is_support_context

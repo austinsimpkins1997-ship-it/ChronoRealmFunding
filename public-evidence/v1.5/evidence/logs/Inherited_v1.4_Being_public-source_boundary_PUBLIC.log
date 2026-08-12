@@ -1,0 +1,12 @@
+ChronoRealm FINAL v1.4 boundary/integration self-test: PASS=11/11
+PASS denisovan_reference_only ''
+PASS denisovan_not_being ''
+PASS denisovan_not_identity ''
+PASS denisovan_not_we ''
+PASS denisovan_cannot_redefine_being ''
+PASS raw_observation_invariant ''
+PASS cited_publication_coauthor_provenance ''
+PASS doi ''
+PASS experiment_not_claimed_reproduced ''
+PASS matlab_not_required ''
+PASS mathematica_not_required ''

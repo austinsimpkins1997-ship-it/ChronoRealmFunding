@@ -1,0 +1,14 @@
+{
+  "schema": "chronorealm-public-environment-fingerprint/1.0",
+  "timestamp": "2026-08-12T12:50:17.573202-04:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "system": "Windows",
+  "release": "11",
+  "machine": "AMD64",
+  "python_version": "3.14.6",
+  "computer_name": "[REDACTED]",
+  "username": "[REDACTED]",
+  "python_executable": "[REDACTED LOCAL PATH]",
+  "bundle_root": "ChronoRealm_FINAL_v1.5_POST_KEITH_2026-08-12",
+  "claim_boundary": "Local software/evidence-integrity execution only; not independent certification, clinical assessment, or universal proof."
+}

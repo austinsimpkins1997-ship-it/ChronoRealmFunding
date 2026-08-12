@@ -1,0 +1,41 @@
+{
+  "schema": "chronorealm-public-evidence-receipt/1.5",
+  "release": "ChronoRealm / WE FINAL v1.5",
+  "source_run_timestamp": "2026-08-12T12:50:19.767967-04:00",
+  "overall_status": "PASS",
+  "major_gates": "11/11 PASS",
+  "inherited_master": "14/14 PASS",
+  "static_manifest": {
+    "v1.4_predecessor_expected_files": 231,
+    "v1.5_expected_files": 256
+  },
+  "raw_private_result_sha256": "10030c0f6002d2892475c1981fedc697906bf1de219d9c23b484cb499ab16742",
+  "source_bundle_sha256": "7b7a9daed0a2366b3ee801dab29b8da7100746e042784de6a396508e04ea9153",
+  "redactions": [
+    "Windows computer hostname",
+    "local username",
+    "absolute local filesystem paths",
+    "private meeting-note capture files and advisor-specific meeting content",
+    "nested raw result archives containing local paths"
+  ],
+  "not_redacted": [
+    "PASS/FAIL counts",
+    "test names except genericized advisor/meeting labels",
+    "human-welfare policy result",
+    "static manifest results",
+    "materials synthetic test results and interpretation boundaries",
+    "Windows pathing static checks",
+    "claim/evidence boundaries"
+  ],
+  "claim_boundary": [
+    "PASS is local software/evidence-integrity evidence for this environment only.",
+    "The human-welfare gate is architectural policy, not medical diagnosis or clinical treatment.",
+    "Health conditions, grief, survivors, disabilities, and LGBTQIA+ identity are not forbidden states.",
+    "The policy blocks intentional inducement/exploitation of preventable harm.",
+    "v1.4 materials integration remains synthetic/software validation and does not reproduce the cited hydroxyapatite experiment.",
+    "Independent certification is not established.",
+    "Independent second physical host and Step17 -> Step17B formal soundness remain open unless separately evidenced.",
+    "Negative results and unresolved findings remain preserved."
+  ],
+  "statement": "This public package is a sanitized derivative of the actual v1.5 Windows result. It preserves the validation outcomes while removing machine/user identifiers and private meeting-specific material. It is local evidence, not independent certification."
+}

@@ -1,0 +1,171 @@
+{
+  "schema": "chronorealm-materials-assurance-demo/1.4",
+  "timestamp": "2026-08-12T12:50:19.645985-04:00",
+  "synthetic": true,
+  "sample_id": "SYNTHETIC-DEMO-001",
+  "batch_id": "SYNTHETIC-BATCH-A",
+  "modalities": {
+    "spectroscopy": {
+      "source": "synthetic_spectrum.csv",
+      "raw_sha256": "8e43426e1bba0956e4654344a90e7683135d5ace70cad7076e8f5af7fb05a5e6",
+      "x_unit": "arb_x",
+      "intensity_unit": "a.u.",
+      "intensity_summary": {
+        "n": 10,
+        "mean": 1.7100000000000002,
+        "median": 1.3,
+        "sample_sd": 0.9011720763045818,
+        "standard_error": 0.28497563248655333,
+        "approx_normal_95ci": [
+          1.1514477603263558,
+          2.2685522396736446
+        ],
+        "min": 1.0,
+        "max": 3.6
+      },
+      "algorithmic_local_maxima": [
+        {
+          "index": 2,
+          "x": 2.0,
+          "intensity": 2.8
+        },
+        {
+          "index": 5,
+          "x": 5.0,
+          "intensity": 3.6
+        },
+        {
+          "index": 8,
+          "x": 8.0,
+          "intensity": 2.4
+        }
+      ],
+      "interpretation_boundary": "Local maxima are algorithmic candidates only; no chemical assignment is made."
+    },
+    "afm": {
+      "source": "synthetic_afm_height.csv",
+      "raw_sha256": "9b44aefd6154556df2da412175f53110eff45df64bf1ee0b3ea75cd4ee7b1c80",
+      "height_unit": "nm",
+      "n": 9,
+      "mean_height": 0.2222222222222222,
+      "Ra": 0.7135802469135802,
+      "Rq": 0.832369813347913,
+      "interpretation_boundary": "Generic topographic roughness metrics only; no morphology classification."
+    },
+    "thin_film_profile": {
+      "source": "synthetic_thin_film_profile.csv",
+      "raw_sha256": "34def6d94dcd3f1d23cfa266575b018258275654088107ce03b269ed6f4e8d43",
+      "position_unit": "um",
+      "signal_unit": "relative",
+      "signal_summary": {
+        "n": 5,
+        "mean": 1.296,
+        "median": 1.28,
+        "sample_sd": 0.23901882771028732,
+        "standard_error": 0.10689246933250257,
+        "approx_normal_95ci": [
+          1.086490760108295,
+          1.5055092398917052
+        ],
+        "min": 1.0,
+        "max": 1.61
+      },
+      "linear_trend": {
+        "slope": 0.15100000000000002,
+        "intercept": 0.994,
+        "r2": 0.9977682478557676,
+        "n": 5
+      },
+      "interpretation_boundary": "A numeric spatial trend is recorded; its physical cause is not inferred automatically."
+    },
+    "fluorescence_microscopy_numeric": {
+      "source": "synthetic_fluorescence.csv",
+      "raw_sha256": "3406b866005bb609d7e0bdef4b890222cba27c0b63bd02beabedfd6e2b4683fe",
+      "unit": "a.u.",
+      "background_corrected_summary": {
+        "n": 3,
+        "mean": 101.0,
+        "median": 100.0,
+        "sample_sd": 4.58257569495584,
+        "standard_error": 2.6457513110645907,
+        "approx_normal_95ci": [
+          95.8143274303134,
+          106.1856725696866
+        ],
+        "min": 97.0,
+        "max": 106.0
+      },
+      "corrected_values": [
+        100.0,
+        106.0,
+        97.0
+      ],
+      "interpretation_boundary": "Numeric intensity summary only; no biological identity or phenotype is inferred."
+    },
+    "cell_culture_numeric": {
+      "source": "synthetic_cell_culture.csv",
+      "raw_sha256": "808953c99e28b42c30b10694c8844f03cfd8bcbf8d11be3b73f399a58ccfae52",
+      "unit": "relative",
+      "conditions": {
+        "control": {
+          "n": 3,
+          "mean": 1.0,
+          "median": 1.0,
+          "sample_sd": 0.030000000000000027,
+          "standard_error": 0.01732050807568879,
+          "approx_normal_95ci": [
+            0.9660518041716499,
+            1.03394819582835
+          ],
+          "min": 0.97,
+          "max": 1.03
+        },
+        "surface_A": {
+          "n": 3,
+          "mean": 1.12,
+          "median": 1.12,
+          "sample_sd": 0.039999999999999925,
+          "standard_error": 0.023094010767584987,
+          "approx_normal_95ci": [
+            1.0747357388955336,
+            1.1652642611044666
+          ],
+          "min": 1.08,
+          "max": 1.16
+        }
+      },
+      "interpretation_boundary": "Condition/replicate summary only; causality and biological significance require domain review."
+    },
+    "sem_image_evidence": {
+      "source": "synthetic_sem_like_image.pgm",
+      "raw_sha256": "84d0293280d6c49506e7b7fd78d9a74a76903b613874481b7e599cd29af6c588",
+      "pixel_dimensions": [
+        4,
+        4
+      ],
+      "modality": "Scanning Electron Microscopy / image-evidence placeholder",
+      "synthetic": true,
+      "interpretation_boundary": "Hash/dimensions/provenance only; image content is not automatically classified."
+    }
+  },
+  "external_tools": {
+    "MATLAB": {
+      "available": false,
+      "executable": null,
+      "required": false,
+      "bundled": false
+    },
+    "Mathematica": {
+      "available": false,
+      "executable": null,
+      "required": false,
+      "bundled": false
+    }
+  },
+  "assurance_boundary": [
+    "Synthetic fixtures are software tests, not laboratory evidence.",
+    "No automatic chemical, biological, or morphology interpretation is asserted.",
+    "MATLAB and Mathematica are optional external capabilities, not bundled dependencies.",
+    "The cited hydroxyapatite study is a public reference and is not reproduced by this demo."
+  ]
+}

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChronoRealm / WE - Public Evidence</title>
+<meta name="description" content="Public-safe, claim-bounded validation evidence for ChronoRealm / WE.">
+<style>
+:root{--bg:#07111f;--panel:#0d1b2d;--ink:#edf5ff;--muted:#a8b8ca;--line:#223a56;--blue:#57a7ff;--blue2:#8ac4ff;--ok:#61d39d}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,var(--bg),#0a1627);color:var(--ink);line-height:1.55}
+a{color:var(--blue2)}.wrap{max-width:1040px;margin:auto;padding:28px 20px 60px}.top{display:flex;justify-content:space-between;gap:18px;align-items:center;margin-bottom:28px}
+.brand{font-weight:800;letter-spacing:.02em}.back{font-size:.95rem;text-decoration:none;border:1px solid var(--line);padding:8px 12px;border-radius:10px}
+.hero{padding:34px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(135deg,#10243b,#0b1a2d);box-shadow:0 16px 50px rgba(0,0,0,.18)}
+.kicker{text-transform:uppercase;letter-spacing:.12em;color:var(--blue);font-size:.78rem;font-weight:800}h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.04;margin:.35rem 0 1rem}
+.lede{max-width:760px;color:#c8d7e8;font-size:1.06rem}.status{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 6px}.pill{border:1px solid var(--line);background:#0a1728;padding:8px 11px;border-radius:999px;font-size:.9rem}.pill strong{color:var(--ok)}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.btn{display:inline-block;text-decoration:none;border-radius:10px;padding:11px 14px;font-weight:750;background:var(--blue);color:#06111e}.btn.secondary{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}.card h2{margin-top:0;font-size:1.2rem}.card p,.card li{color:#c6d5e6}.wide{grid-column:1/-1}
+table{width:100%;border-collapse:collapse;font-size:.92rem}td,th{padding:9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:var(--blue2)}.pass{color:var(--ok);font-weight:800}
+.hash{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.78rem;overflow-wrap:anywhere;background:#081321;padding:10px;border-radius:8px;border:1px solid var(--line)}.note{border-left:3px solid var(--blue);padding-left:14px}
+.footer{color:var(--muted);font-size:.82rem;margin-top:28px}@media(max-width:760px){.grid{grid-template-columns:1fr}.wide{grid-column:auto}.hero{padding:24px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="brand">ChronoRealm / WE</div>
+    <a class="back" href="../">Back to funding page</a>
+  </div>
+  <section class="hero">
+    <div class="kicker">Public Evidence - Latest Release</div>
+    <h1>Bounded evidence, preserved with its limits.</h1>
+    <p class="lede">This page publishes the sanitized evidence package for the current ChronoRealm / WE software-assurance release. It is designed for reviewers, funding programs, pilot prospects, and public technical discussion.</p>
+    <div class="status">
+      <span class="pill"><strong>PASS</strong> 11 / 11 major gates</span>
+      <span class="pill"><strong>PASS</strong> 14 / 14 inherited MASTER</span>
+      <span class="pill">v1.5 - 2026-08-12</span>
+      <span class="pill">Local Windows evidence</span>
+    </div>
+    <div class="actions">
+      <a class="btn" href="./v1.5/ChronoRealm_v1.5_Public_Evidence_One_Page.pdf">Read one-page summary</a>
+      <a class="btn secondary" href="./v1.5/ChronoRealm_WE_FINAL_v1.5_PUBLIC_EVIDENCE_BUNDLE_2026-08-12.zip">Download evidence ZIP</a>
+      <a class="btn secondary" href="./v1.5/PUBLIC_RELEASE_NOTES_v1.5.md">Release notes</a>
+    </div>
+  </section>
+  <div class="grid">
+    <section class="card">
+      <h2>What this evidence supports</h2>
+      <p>The recorded v1.5 Windows run completed all 11 declared major gates. The inherited MASTER bounded suite also completed 14/14 recorded steps. The public package preserves those outcomes while removing machine/user identifiers and private meeting material.</p>
+    </section>
+    <section class="card">
+      <h2>What it does not claim</h2>
+      <p>It is not independent certification, universal correctness, clinical validation, or proof that every deployment will behave the same way. Open formal and independent-host questions remain explicitly open.</p>
+    </section>
+    <section class="card wide">
+      <h2>Recorded major gates</h2>
+      <table><thead><tr><th>Gate</th><th>Result</th></tr></thead><tbody><tr><td>Frozen predecessor v1.4 static manifest</td><td><span class='pass'>PASS</span></td></tr>
+<tr><td>Final v1.5 additive static manifest</td><td><span class='pass'>PASS</span></td></tr>
+<tr><td>Human welfare non-inducement self-test</td><td><span class='pass'>PASS</span></td></tr>
+<tr><td>Inherited v1.4 Being/public-source boundary</td><td><span class='pass'>PASS</span></td></tr>
+<tr><td>Inherited MASTER bounded validation suite</td><td><span class='pass'>PASS</span></td></tr>
+<tr><td>v1.2 successor grounded-reference self-test</td><td><span class='pass'>PASS</span></td></tr>
+<tr><td>Materials characterization integration self-test</td><td><span class='pass'>PASS</span></td></tr>
+<tr><td>Commercialization decision-intake schema self-test</td><td><span class='pass'>PASS</span></td></tr>
+<tr><td>Commercialization notes-capture mechanism</td><td><span class='pass'>PASS</span></td></tr>
+<tr><td>Windows one-click pathing static self-test</td><td><span class='pass'>PASS</span></td></tr>
+<tr><td>v1.5 integration Python AST parse</td><td><span class='pass'>PASS</span></td></tr></tbody></table>
+    </section>
+    <section class="card wide">
+      <h2>Claim boundary</h2><ul><li>PASS is local software/evidence-integrity evidence for this environment only.</li>
+<li>The human-welfare gate is architectural policy, not medical diagnosis or clinical treatment.</li>
+<li>Health conditions, grief, survivors, disabilities, and LGBTQIA+ identity are not forbidden states.</li>
+<li>The policy blocks intentional inducement/exploitation of preventable harm.</li>
+<li>v1.4 materials integration remains synthetic/software validation and does not reproduce the cited hydroxyapatite experiment.</li>
+<li>Independent certification is not established.</li>
+<li>Independent second physical host and Step17 -&gt; Step17B formal soundness remain open unless separately evidenced.</li>
+<li>Negative results and unresolved findings remain preserved.</li></ul>
+    </section>
+    <section class="card">
+      <h2>Public provenance anchors</h2>
+      <p>Public evidence ZIP SHA-256</p><div class="hash">de0dbbaaef97136bd3a856d00360eb87efc3fee7692774935e9f054f07352f7c</div>
+      <p>Raw private Windows result SHA-256</p><div class="hash">10030c0f6002d2892475c1981fedc697906bf1de219d9c23b484cb499ab16742</div>
+      <p>v1.5 source bundle SHA-256</p><div class="hash">7b7a9daed0a2366b3ee801dab29b8da7100746e042784de6a396508e04ea9153</div>
+    </section>
+    <section class="card">
+      <h2>Browse the evidence</h2>
+      <p><a href="./v1.5/evidence/00_PUBLIC_VALIDATION_RECEIPT.json">Validation receipt</a></p>
+      <p><a href="./v1.5/evidence/01_FINAL_RUN_SUMMARY_PUBLIC.json">Run summary</a></p>
+      <p><a href="./v1.5/evidence/02_ENVIRONMENT_FINGERPRINT_PUBLIC.json">Public environment fingerprint</a></p>
+      <p><a href="./v1.5/evidence/03_INHERITED_MASTER_SUMMARY_PUBLIC.json">Inherited MASTER summary</a></p>
+      <p><a href="./v1.5/evidence/04_MATERIALS_ASSURANCE_DEMO_RESULT.json">Materials-assurance synthetic result</a></p>
+      <p><a href="./LATEST.json">LATEST.json</a></p>
+    </section>
+    <section class="card wide note">
+      <h2>Evidence principle</h2>
+      <p>A failed proof, incomplete test, counterexample, resource exhaustion, or negative result remains evidence. Later revisions should narrow, supersede, or correct prior claims without silently rewriting what actually occurred.</p>
+    </section>
+  </div>
+  <div class="footer">ChronoRealm / WE public evidence - claim-bounded software validation. Related public technical review:
+    <a href="https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification">ChronoRealmVerification</a>.
+  </div>
+</div>
+</body>
+</html>

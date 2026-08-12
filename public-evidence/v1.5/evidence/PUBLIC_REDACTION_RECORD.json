@@ -1,0 +1,31 @@
+{
+  "source_raw_result": "ChronoRealm_FINAL_v1.5_POST_KEITH_RESULTS_20260812_125017.zip",
+  "source_raw_result_sha256": "10030c0f6002d2892475c1981fedc697906bf1de219d9c23b484cb499ab16742",
+  "changes": [
+    {
+      "field_or_content": "computer_name",
+      "action": "redacted"
+    },
+    {
+      "field_or_content": "username",
+      "action": "redacted"
+    },
+    {
+      "field_or_content": "python_executable and absolute bundle paths",
+      "action": "redacted"
+    },
+    {
+      "field_or_content": "advisor/meeting notes and note-status artifacts",
+      "action": "omitted"
+    },
+    {
+      "field_or_content": "nested raw inherited result ZIP",
+      "action": "omitted because it contains local absolute paths"
+    },
+    {
+      "field_or_content": "advisor-specific self-test labels",
+      "action": "genericized without changing PASS/FAIL status"
+    }
+  ],
+  "validation_outcomes_changed": false
+}
