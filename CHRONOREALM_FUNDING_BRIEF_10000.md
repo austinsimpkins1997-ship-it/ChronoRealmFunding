@@ -35,14 +35,7 @@ The September 13 development receipt states that native GUI/full live acceptance
 
 **The main unresolved formal question is whether the Step 17 → Step 17B projection is sound for the listed current-state properties.** The public review record dated August 10 records no independent third-party endorsement or counterexample. No later review outcome is asserted here.
 
-Public evidence:
-- [Verification overview](https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification)
-- [Default TLC output](https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification/blob/main/results/TLC_STEP17B_OUTPUT_20260810_101246.txt)
-- [Deep TLC output](https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification/blob/main/results/TLC_STEP17B_DEEP_OUTPUT_20260810_101341.txt)
-- [Claim boundaries](https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification/blob/main/CLAIM_BOUNDARY.md)
-- [How to falsify the claims](https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification/blob/main/HOW_TO_FALSIFY.md)
-- [Artifact provenance](https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification/blob/main/ARTIFACT_PROVENANCE.md)
-- [Review status](https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification/blob/main/review/REVIEW_STATUS.md)
+Evidence basis: ChronoRealm Public Evidence Release v1.0, recorded August 10, 2026. This brief presents result summaries and limitations; it does not distribute model files or application source code.
 
 ## What $10,000 would fund
 The following is a proposed allocation, not vendor quotations or money already committed.
@@ -78,4 +71,4 @@ This request is for project support. It offers no equity, repayment obligation, 
 Start with the [project's public funding page](https://austinsimpkins1997-ship-it.github.io/ChronoRealmFunding/) or contact the [project lead on GitHub](https://github.com/austinsimpkins1997-ship-it). Prospective institutional supporters can request a scoped agreement before committing funds. Existing payment information is maintained on the funding page; it has not been independently reverified for this brief.
 
 ### Evidence note
-Formal-model figures above come from the linked public evidence release. Development figures are a sanitized summary of the September 13 stop receipt and academic preparation acceptance record; underlying local logs are not published in this brief. Internal AI-assisted QA is not external certification. Budget, timeline, pilot size, and expected benefits are proposals.
+Formal-model figures above come from the ChronoRealm Public Evidence Release v1.0. Development figures are a sanitized summary of the September 13 stop receipt and academic preparation acceptance record; underlying local logs are not published in this brief. Internal AI-assisted QA is not external certification. Budget, timeline, pilot size, and expected benefits are proposals.
