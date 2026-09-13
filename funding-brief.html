@@ -1,0 +1,67 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ChronoRealm | $10,000 Funding Brief</title><meta name="description" content="Support a focused ChronoRealm validation and pilot milestone. Review the $10,000 budget, recorded tests, and eight-week plan."><style>
+:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#f4f7fb;color:#18293c;font:17px/1.7 system-ui,-apple-system,Segoe UI,sans-serif}main{max-width:960px;margin:40px auto;padding:48px;background:white;border:1px solid #d9e3ee;border-radius:20px}nav{font-size:14px;margin-bottom:32px}h1{font-size:clamp(30px,5vw,46px);line-height:1.15;letter-spacing:-1px;color:#10365c}h2{font-size:27px;margin-top:44px;line-height:1.3;border-top:1px solid #d9e3ee;padding-top:28px}h3{font-size:21px}a{color:#145bad;text-underline-offset:3px}li{margin-bottom:10px}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.55}th,td{text-align:left;vertical-align:top;border:1px solid #d9e3ee;padding:12px}th{background:#eaf2fa}strong{color:#10365c}@media(max-width:600px){main{margin:0;padding:24px 18px;border:0;border-radius:0}}@media print{body{background:white}main{margin:0;border:0;padding:0}h2{break-after:avoid}tr{break-inside:avoid}}
+</style></head><body><main><nav><a href="./">ChronoRealm funding home</a> · <a href="https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification">Public test evidence</a></nav><h1>ChronoRealm — $10,000 Funding Brief</h1>
+<p><strong>A traceable evidence workspace for human–AI work.</strong>  </p>
+<p>Prepared September 13, 2026 · Project lead: Austin Simpkins  </p>
+<p><strong>Seeking $10,000 in grant or sponsorship support for a focused validation and pilot milestone.</strong></p>
+<h2>Why support ChronoRealm?</h2>
+<p>When a team uses AI to assemble research, review records, or prepare a decision, the answer alone is not enough. A reviewer needs to see where a claim came from, what changed, what was tested, and what remains uncertain.</p>
+<p>ChronoRealm is being developed around that need: a local evidence workspace that keeps source material, assertions, proposals, corrections, and authority boundaries distinguishable. Its organizing vocabulary—Source, Was, As, To Be, Becoming, Unknown, and Contested—supports an explicit distinction between what was recorded, what is proposed, and what has actually been established.</p>
+<p><strong>The reason to fund this milestone is concrete: help turn an existing prototype and inspectable evidence into a reproducible workflow that outside reviewers and pilot users can evaluate.</strong> The value proposition is clearer review and more traceable corrections. Improvements in time, accuracy, and usability still need to be measured.</p>
+<h2>Who could benefit?</h2>
+<p>The initial pilot would target researchers and small teams working with AI-assisted evidence packets. A representative task is to take a supplied source, prepare a claim and quotation, preserve attribution, review the proposal, and later inspect its correction history.</p>
+<p>For example, when a source contains the same quotation twice, selecting the wrong occurrence can make a citation misleading. ChronoRealm's development work includes explicit occurrence selection and checks against malformed quotation choices. The proposed pilot tests whether those controls are understandable and useful to a human reviewer.</p>
+<p>These are intended users and a proposed use case, not claims of existing customers or validated market demand.</p>
+<h2>What exists today?</h2>
+<ul>
+<li>A documented local software prototype with record/provenance workflows and an academic evidence preparation surface.</li>
+<li>A public formal-model evidence repository containing recorded TLC outputs, reproduction material, claim boundaries, and falsification questions.</li>
+<li>A local development checkpoint at <strong>v0.7.0-dev-22</strong>, documenting packaged checks and a bounded academic preparation milestone.</li>
+</ul>
+<p>The September 13 development receipt states that native GUI/full live acceptance and installed activation remain outstanding. This brief summarizes project records; it does not claim a fresh independent rerun or production readiness.</p>
+<h2>Test results you can inspect</h2>
+<div class="table-wrap"><table><thead><tr><th>Evidence</th><th>Recorded result</th><th>What it does not establish</th></tr></thead><tbody>
+<tr><td>Step 17B TLC, MaxSteps=8</td><td>2,242,441 generated states; 322,545 distinct; depth 9; zero queued; no error found</td><td>Correctness beyond the configured projected model</td></tr>
+<tr><td>Step 17B TLC, MaxSteps=12</td><td>4,251,529 generated states; 531,441 distinct; depth 13; zero queued; no error found</td><td>Soundness of the projection from the original model</td></tr>
+<tr><td>Original history-bearing Step 17</td><td>Resource-exhausted / incomplete</td><td>A pass or fail conclusion</td></tr>
+<tr><td>v0.7.0-dev-22 local acceptance record</td><td>Packaged checks reported PASS; 396 input pins checked; isolated readiness 14/14</td><td>Native GUI/full live acceptance or real-world reliability</td></tr>
+<tr><td>Development QA record</td><td>Six valid occurrence cases and 24 malformed-choice variants reported passing</td><td>Independent third-party certification</td></tr>
+</tbody></table></div>
+<p><strong>The main unresolved formal question is whether the Step 17 → Step 17B projection is sound for the listed current-state properties.</strong> The public review record dated August 10 records no independent third-party endorsement or counterexample. No later review outcome is asserted here.</p>
+<p>Public evidence:</p>
+<ul>
+<li><a href="https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification">Verification overview</a></li>
+<li><a href="https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification/blob/main/results/TLC_STEP17B_OUTPUT_20260810_101246.txt">Default TLC output</a></li>
+<li><a href="https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification/blob/main/results/TLC_STEP17B_DEEP_OUTPUT_20260810_101341.txt">Deep TLC output</a></li>
+<li><a href="https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification/blob/main/CLAIM_BOUNDARY.md">Claim boundaries</a></li>
+<li><a href="https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification/blob/main/HOW_TO_FALSIFY.md">How to falsify the claims</a></li>
+<li><a href="https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification/blob/main/ARTIFACT_PROVENANCE.md">Artifact provenance</a></li>
+<li><a href="https://github.com/austinsimpkins1997-ship-it/ChronoRealmVerification/blob/main/review/REVIEW_STATUS.md">Review status</a></li>
+</ul>
+<h2>What $10,000 would fund</h2>
+<p>The following is a proposed allocation, not vendor quotations or money already committed.</p>
+<div class="table-wrap"><table><thead><tr><th>Work package</th><th>Budget</th><th>Deliverable</th></tr></thead><tbody>
+<tr><td>Engineering and reproducible pilot packaging</td><td>$4,000</td><td>Versioned candidate, setup instructions, synthetic example workflow, preserved known issues</td></tr>
+<tr><td>External technical review</td><td>$2,500</td><td>Scoped review of projection soundness and evidence-handling failure cases; findings published with reviewer consent</td></tr>
+<tr><td>Test infrastructure and compute</td><td>$1,500</td><td>Reproduction runs, retained logs, and documented resource limits</td></tr>
+<tr><td>Human pilot and documentation</td><td>$1,000</td><td>Target of 3–5 consenting evaluators, task protocol, anonymized findings, revised guide</td></tr>
+<tr><td>Contingency and corrective work</td><td>$1,000</td><td>Fixes or reruns tied to documented findings; spending itemized</td></tr>
+<tr><td><strong>Total</strong></td><td><strong>$10,000</strong></td><td><strong>An inspectable pilot and validation package</strong></td></tr>
+</tbody></table></div>
+<h2>Proposed eight-week milestone</h2>
+<p>The schedule begins after funding and scope agreement; reviewer and pilot availability may affect timing.</p>
+<ol>
+<li><strong>Weeks 1–2: Freeze the baseline.</strong> Publish the bounded claims, synthetic task, reproduction instructions, and acceptance checklist.</li>
+<li><strong>Weeks 3–5: Reproduce and challenge.</strong> Run available checks, engage external review within budget, and preserve failures and counterexamples. If no reviewer is secured, disclose the gap rather than relabel internal review as independent.</li>
+<li><strong>Weeks 6–8: Exercise the human workflow.</strong> Attempt native/live acceptance on a named test environment, run the consenting pilot, and publish outcomes, limitations, and the next decision.</li>
+</ol>
+<p>Success means an outsider can follow the published setup, inspect a claim's source and correction trail, and distinguish a proposed action from completed execution. The final report will record task completion, citation-selection errors, reviewer time, and observed failures. No performance improvement is promised in advance.</p>
+<h2>Accountability and current funding status</h2>
+<p>Supporters would receive a scoped work plan, milestone updates, an itemized spending summary, and a final public report. Public reports will use synthetic or consented material and exclude credentials, private archives, personal account information, and confidential submissions.</p>
+<p>Austin reports that a DOE Phase I pitch remains <strong>Submitted</strong> as of September 13. No award or agency endorsement is claimed. Any later funding would require reconciling scope and costs to avoid charging the same work twice.</p>
+<p>This request is for project support. It offers no equity, repayment obligation, ownership transfer, or promised financial return. Funding is separate from technical endorsement.</p>
+<h2>Support the next verifiable step</h2>
+<p><strong>A $10,000 commitment would give ChronoRealm a defined validation milestone with observable deliverables.</strong> Partial sponsorship of an individual work package or suitable in-kind review/compute support can also be discussed.</p>
+<p>Start with the <a href="https://austinsimpkins1997-ship-it.github.io/ChronoRealmFunding/">project's public funding page</a> or contact the <a href="https://github.com/austinsimpkins1997-ship-it">project lead on GitHub</a>. Prospective institutional supporters can request a scoped agreement before committing funds. Existing payment information is maintained on the funding page; it has not been independently reverified for this brief.</p>
+<h3>Evidence note</h3>
+<p>Formal-model figures above come from the linked public evidence release. Development figures are a sanitized summary of the September 13 stop receipt and academic preparation acceptance record; underlying local logs are not published in this brief. Internal AI-assisted QA is not external certification. Budget, timeline, pilot size, and expected benefits are proposals.</p></main></body></html>
