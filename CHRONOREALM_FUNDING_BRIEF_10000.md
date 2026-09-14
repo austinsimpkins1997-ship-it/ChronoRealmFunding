@@ -70,5 +70,10 @@ This request is for project support. It offers no equity, repayment obligation, 
 
 Start with the [project's public funding page](https://austinsimpkins1997-ship-it.github.io/ChronoRealmFunding/) or contact the [project lead on GitHub](https://github.com/austinsimpkins1997-ship-it). Prospective institutional supporters can request a scoped agreement before committing funds. Existing payment information is maintained on the funding page; it has not been independently reverified for this brief.
 
+### Bitcoin support
+Bitcoin mainnet receiving address provided by Austin Simpkins:
+
+[bc1qxzvuhxfq2qckvxkpd3t87drr7c25ygqmevtkj6](bitcoin:bc1qxzvuhxfq2qckvxkpd3t87drr7c25ygqmevtkj6)
+
 ### Evidence note
 Formal-model figures above come from the ChronoRealm Public Evidence Release v1.0. Development figures are a sanitized summary of the September 13 stop receipt and academic preparation acceptance record; underlying local logs are not published in this brief. Internal AI-assisted QA is not external certification. Budget, timeline, pilot size, and expected benefits are proposals.
