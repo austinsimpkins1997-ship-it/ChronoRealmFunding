@@ -24,6 +24,27 @@ These are intended users and a proposed use case, not claims of existing custome
 
 The September 13 development receipt states that native GUI/full live acceptance and installed activation remain outstanding. This brief summarizes project records; it does not claim a fresh independent rerun or production readiness.
 
+## Whole-system test report — September 11, 2026
+
+**39 of 39 suites reported PASS, with 2,596 tests counted.** The recorded report was generated September 11, 2026 at 21:21:09 and reports that the live operator database remained unchanged.
+
+
+
+- **Governance and verification:** 462 governance unit tests counted (one skipped), 140/140 kernel self-tests, 173/173 extended self-tests, and 402 verification-suite tests.
+
+- **Python/Rust agreement:** matching verdicts across a fresh 842-record chain corpus and 70 grammar cases. Stored 1,490-record answer files also agreed.
+
+- **Rust reader:** 49 tests passed; lint and formatting checks passed. Directory and JSONL modes produced byte-identical answers for 2,007 events (2,000 accepted and seven refused).
+
+- **Integration and products:** 58 bridge tests; 14 game-to-verification round-trip tests; ClaimLens 32, Chronicle 28, and AgentGate 56 tests reported passing.
+
+- **Formal-model checks:** the report records TLA+/TLC and Alloy outcomes as expected, and temporal checks T1–T9 as holding within the tested configurations.
+
+
+**Scope:** This is a summary of the existing local HTML results report, not a fresh rerun or independent certification. The total is the report's counted tests, not a claim of 2,596 unique assertions or all tests executed: governance and Books suites each note one skip, and some suites have no numeric count. These results do not by themselves establish production readiness, full native GUI acceptance, or Step 17 → Step 17B projection soundness. Source code, raw logs, and local filesystem paths are not included.
+
+
+
 ## Test results you can inspect
 | Evidence | Recorded result | What it does not establish |
 |---|---|---|
